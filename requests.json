@@ -1,0 +1,130 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "RabbitMQ",
+    "dateExported": "2023-05-09T11:15:31.665Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "70a6c6c1-d52c-4e0d-a129-4aab007f3629",
+            "colId": "ee451911-9745-43c3-a362-65245b4cdc2b",
+            "containerId": "",
+            "name": "Kayıt Ol",
+            "url": "localhost:3000/kayitol",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-09T10:27:49.127Z",
+            "modified": "2023-05-09T10:39:10.092Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "eposta",
+                        "value": "sinan"
+                    },
+                    {
+                        "name": "kad",
+                        "value": "sinan"
+                    },
+                    {
+                        "name": "sifre",
+                        "value": "sinan"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "500345f0-4514-4d86-add8-e6964e299f0e",
+            "colId": "ee451911-9745-43c3-a362-65245b4cdc2b",
+            "containerId": "",
+            "name": "Giriş Yap",
+            "url": "localhost:3000/girisyap",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-05-09T10:28:35.156Z",
+            "modified": "2023-05-09T11:01:20.152Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "eposta",
+                        "value": "sinan"
+                    },
+                    {
+                        "name": "sifre",
+                        "value": "sinan"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "02c01120-cd91-4b49-bc50-e5abbc74785e",
+            "colId": "ee451911-9745-43c3-a362-65245b4cdc2b",
+            "containerId": "",
+            "name": "Ürün Satın Al",
+            "url": "localhost:3001/urunler/satinal",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-09T10:29:18.851Z",
+            "modified": "2023-05-09T11:07:58.654Z",
+            "headers": [
+                {
+                    "name": "x-auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNpbmFuIiwia2FkIjoic2luYW4iLCJpYXQiOjE2ODM2MzAwODAsImV4cCI6MTY4MzYzMzY4MH0.PHqamKZrytHh7nrc1J6wKiwcyXXMYI0UWQpOWn-KIbo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"productIds\":[\"645a280c72fa601a0b822880\"]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a2a31624-58e6-4818-aeb1-a55439686cbe",
+            "colId": "ee451911-9745-43c3-a362-65245b4cdc2b",
+            "containerId": "",
+            "name": "Ürün Ekle",
+            "url": "localhost:3001/urunler/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-05-09T10:59:03.733Z",
+            "modified": "2023-05-09T11:01:42.899Z",
+            "headers": [
+                {
+                    "name": "x-auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNpbmFuIiwia2FkIjoic2luYW4iLCJpYXQiOjE2ODM2MzAwODAsImV4cCI6MTY4MzYzMzY4MH0.PHqamKZrytHh7nrc1J6wKiwcyXXMYI0UWQpOWn-KIbo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "ad",
+                        "value": "Macbook Air"
+                    },
+                    {
+                        "name": "fiyat",
+                        "value": "25000"
+                    },
+                    {
+                        "name": "detay",
+                        "value": "Dizüstü Bilgisayar"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
