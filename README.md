@@ -8,6 +8,9 @@ Servis, yeni ürünlerin oluşturulmasını ve kullanıcıların mevcut ürünle
 
 ## Fonksiyonellik / API Uç Noktaları
 
+## RabbitMQ Docker kapsayıcısının çalıştırılması
+`docker run -p 5672:5672 rabbitmq`
+
 ### 1. Ürün Oluşturma
 
 -   **Endpoint:** `POST /`
